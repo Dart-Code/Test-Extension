@@ -2,7 +2,7 @@
 	"name": "test-extension",
 	"displayName": "Test Extension",
 	"description": "An extension for testing automated publishing. Not useful to you.",
-	"version": "0.2.0-dev",
+	"version": "0.1.20261105",
 	"publisher": "Dart-Code",
 	"engines": {
 		"vscode": "^1.101.0"
@@ -28,16 +28,14 @@
 		"type": "git",
 		"url": "https://github.com/Dart-Code/Test-Extension.git"
 	},
-	"categories": [
-	],
+	"categories": [],
 	"keywords": [],
 	"icon": "media/test.png",
 	"activationEvents": [
 		"onStartupFinished"
 	],
 	"main": "./out/dist/extension",
-	"contributes": {
-	},
+	"contributes": {},
 	"scripts": {
 		"vscode:prepublish": "webpack --mode production",
 		"build": "webpack --mode development --stats errors-only",

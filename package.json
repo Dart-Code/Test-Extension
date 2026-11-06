@@ -2,7 +2,7 @@
 	"name": "dart-code-test-extension",
 	"displayName": "Dart-Code Test Extension",
 	"description": "An extension for testing automated publishing. Not useful to you.",
-	"version": "0.16.0-dev",
+	"version": "0.18.0-dev",
 	"publisher": "Dart-Code-Testing",
 	"engines": {
 		"vscode": "^1.101.0"
